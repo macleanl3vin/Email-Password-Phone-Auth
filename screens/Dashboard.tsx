@@ -23,7 +23,18 @@ export default function Dashboard({route}: DashboardProps): JSX.Element {
   const currentEmail = auth().currentUser?.email;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  const handleLogout = async () => {};
+  const handleLogout = async () => {
+    const handleLogout = async () => {
+      try {
+        await auth().signOut();
+
+        console.log("User logged out successfully");
+        navigation.navigate("LoginScreen");
+      } catch (error) {
+        console.error("Error logging out:", error);
+      }
+    };
+  };
 
   const changeEmail = async () => {};
 

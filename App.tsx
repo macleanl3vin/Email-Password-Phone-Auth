@@ -41,7 +41,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="LoginScreen">
         <Stack.Screen name="SignUpScreen" component={SignUpScreen} options={{headerShown: false}} />
-        {/* <Stack.Screen name="AwaitEmailVerification" component={AwaitEmailVerification} options={{headerShown: false}} /> */}
+        <Stack.Screen name="AwaitEmailVerification" component={AwaitEmailVerification} options={{headerShown: false}} />
         <Stack.Screen name="PhoneNumberVerification" component={PhoneNumberVerification} options={{headerShown: false}} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} options={{headerShown: false}} />
         <Stack.Screen name="Dashboard" component={Dashboard} options={{headerShown: false}} />
