@@ -1,6 +1,11 @@
 # Email-Password-Phone-Auth
 
-## react-native-firebase
+## Commands to prebuild and run app.
+- npx expo prebuild
+- npx expo run:ios
+- npx epxo run:android
+
+### react-native-firebase
 - Follow the guide at https://rnfirebase.io/ to correctly implement.
 
 ### FirebaseConfig.tsx
@@ -15,3 +20,4 @@
 - npm install firebase
 - npm install react-native-safe-area-context
 - npm install react-native-screens
+
