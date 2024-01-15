@@ -30,6 +30,12 @@
           <string>com.maclean.levin.starterCode</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.922269500321-05kfcbdcrb9qa2gu15r0vkrgtm3crcqb</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>

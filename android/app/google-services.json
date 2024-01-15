@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "922269500321",
+    "firebase_url": "https://pudotest-ba3dd-default-rtdb.firebaseio.com",
+    "project_id": "pudotest-ba3dd",
+    "storage_bucket": "pudotest-ba3dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922269500321:android:bb25bdec5fb6a7855b01e0",
+        "android_client_info": {
+          "package_name": "com.maclean.levin.starterCode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922269500321-bq31n211kg5vo09dba6uh4fmvglkv4mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFl8yqLGHMpVnVhC4MIzWSqsj8BxJPYAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922269500321-bq31n211kg5vo09dba6uh4fmvglkv4mp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922269500321-05kfcbdcrb9qa2gu15r0vkrgtm3crcqb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maclean.levin.starterCode"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

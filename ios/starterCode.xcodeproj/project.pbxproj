@@ -15,6 +15,7 @@
 		6D72C0039105EF25422A8E71 /* Pods_starterCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F766B3481F0EADCB0C48747E /* Pods_starterCode.framework */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		A1ABDB01ECA445718ECC499E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E8623E1961477ABB7B7D8E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F766B3481F0EADCB0C48747E /* Pods_starterCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_starterCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-starterCode/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		14E8623E1961477ABB7B7D8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "starterCode/GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				65DCD97D669141D1AF1A8679 /* noop-file.swift */,
 				1559FE4CCEB94278AEE6060E /* starterCode-Bridging-Header.h */,
+				14E8623E1961477ABB7B7D8E /* GoogleService-Info.plist */,
 			);
 			name = starterCode;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				A1ABDB01ECA445718ECC499E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +378,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclean.levin.starterCode;
-				PRODUCT_NAME = starterCode;
+				PRODUCT_NAME = "starterCode";
 				SWIFT_OBJC_BRIDGING_HEADER = "starterCode/starterCode-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -402,7 +406,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclean.levin.starterCode;
-				PRODUCT_NAME = starterCode;
+				PRODUCT_NAME = "starterCode";
 				SWIFT_OBJC_BRIDGING_HEADER = "starterCode/starterCode-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
