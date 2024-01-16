@@ -7,9 +7,11 @@
 
 ### react-native-firebase
 - Follow the guide at https://rnfirebase.io/ to correctly implement.
+- Add your own google-services.json and GoogleService-Info.plist files. Which you get from firebase when adding a new app type (web, ios, android)
 
 ### FirebaseConfig.tsx
-- Make sure to add your own web app's Firebase configuration 
+- Make sure to add your own web app's Firebase configuration
+
 
 ### Run the following commands to install necessary dependencies;
 - npm install @react-native-async-storage/async-storage
