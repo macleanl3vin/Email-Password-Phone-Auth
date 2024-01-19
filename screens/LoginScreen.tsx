@@ -14,7 +14,7 @@ export default function LoginScreen() {
 
   const navigation = useNavigation<NativeStackNavigationProp<EditorParams>>();
 
-  const SignIn = async () => {
+  const InitiateSignIn = async () => {
     // Code will be added when we add SignIn functionality.
   };
 
@@ -26,7 +26,7 @@ export default function LoginScreen() {
           <ActivityIndicator size="large" color="#0000f" />
         ) : (
           <View style={styles.ButtonContainer}>
-            <TouchableOpacity onPress={SignIn} style={styles.proceedButton}>
+            <TouchableOpacity onPress={InitiateSignIn} style={styles.proceedButton}>
               <Text>Proceed</Text>
             </TouchableOpacity>
 
