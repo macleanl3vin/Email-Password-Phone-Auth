@@ -9,11 +9,7 @@ import {NativeStackNavigationProp} from "@react-navigation/native-stack";
 
 import {EditorParams} from "../App";
 
-interface DashboardProps {
-  route: any;
-}
-
-export default function Dashboard({route}: DashboardProps): JSX.Element {
+export default function Dashboard() {
   const [loading, setLoading] = useState(false);
   const [newEmail, setNewEmail] = useState("");
 
