@@ -11,7 +11,7 @@ interface EnterPasswordProps {
   route: any;
 }
 
-export default function EnterPassword({route}: EnterPasswordProps): JSX.Element {
+export default function EnterPassword({route}: EnterPasswordProps) {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const {email} = route.params;
