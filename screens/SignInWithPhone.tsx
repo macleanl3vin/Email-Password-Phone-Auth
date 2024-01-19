@@ -17,7 +17,7 @@ export default function SignInWithPhone({route}: SignInWithPhoneProps): JSX.Elem
   const navigation = useNavigation<NativeStackNavigationProp<EditorParams>>();
   const {confirmationCred} = route.params;
 
-  const SignIn = async () => {};
+  const PhoneSignIn = async () => {};
 
   return (
     <View style={styles.container}>
@@ -27,7 +27,7 @@ export default function SignInWithPhone({route}: SignInWithPhoneProps): JSX.Elem
           <ActivityIndicator size="large" color="#0000f" />
         ) : (
           <View style={styles.ButtonContainer}>
-            <TouchableOpacity onPress={SignIn} style={styles.signupButton} disabled={loading}>
+            <TouchableOpacity onPress={PhoneSignIn} style={styles.signupButton} disabled={loading}>
               <Text>Next</Text>
             </TouchableOpacity>
           </View>
